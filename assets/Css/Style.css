@@ -506,6 +506,8 @@ p {
   flex-direction: column;
   align-content: flex-start;
   justify-content: center;
+  padding-top: 40px;
+
 }
 
 .dream-home button {
