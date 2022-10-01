@@ -754,7 +754,6 @@ p {
 
 /** ********************************** Contact-us Section start ************************ */
 
-
 .contact-us .bg {
   color: #ffffff;
   background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/f66c80d498b057c0bb1a3f42/fvmin.jpg");
@@ -815,7 +814,6 @@ p {
   word-wrap: break-word;
 }
 
-
 .contact-us .second-part p {
   font-weight: 700;
   word-wrap: break-word;
@@ -875,39 +873,62 @@ p {
   .contact-us .section-button {
     width: 43%;
   }
+  .contact-us .header-paragraph {
+    margin: 23px 7px 0;
+  }
+  .contact-us .header-tag {
+    letter-spacing: 0px;
+  }
+  .contact-us .first-part {
+    padding: 0px;
+  }
 }
-@media screen and (min-width: 250px) and (max-width: 576px) {
+@media screen and (min-width: 200px) and (max-width: 576px) {
   .contact-us .section-button {
     width: 100%;
+  }
+  .contact-us .header-paragraph {
+    margin: 23px 7px 0;
+  }
+  .contact-us .header-tag {
+    font-size: 2rem;
+  }
+  .contact-us h5 {
+    letter-spacing: 0px;
+  }
+  .contact-us .first-part {
+    padding: 0px;
   }
 }
 
 /*! ********************************** Contact-us   Section End ************************ */
 
-
-
-
-.footer-1, .footer-2{
+.footer-1,
+.footer-2 {
   color: #ffffff;
   background-color: #333333;
   height: 90px;
 }
-.footer-1 p{
+.footer-1 p {
   text-align: center;
   padding: 35px;
   word-wrap: break-word;
 }
-.footer-2 p {  
-display: inline-block;
-padding-top: 20px;
+.footer-2 p {
+  display: inline-block;
+  padding-top: 20px;
 }
-.footer-2 a{
+.footer-2 a {
   color: #ff6918;
   font-weight: bold;
   text-decoration: underline;
 }
-.footer-2 a:hover{
+.footer-2 a:hover {
   color: #f43702;
   font-weight: bold;
-  
+}
+@media screen and (min-width: 200px) and (max-width: 576px) {
+  .footer-1 p {
+    padding: 20px;
+  }
 }
